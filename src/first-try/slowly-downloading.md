@@ -1,3 +1,10 @@
+# 下载工具链很慢？
+尝试设置以下两个环境变量：
+```shell
+export RUSTUP_DIST_SERVER='https://mirrors.ustc.edu.cn/rust-static'
+export RUSTUP_UPDATE_ROOT='https://mirrors.ustc.edu.cn/rust-static/rustup'
+```
+
 # 下载依赖很慢或卡住？
 在目前，大家还不需要自己搭建的镜像下载服务，因此只需知道下载依赖库的地址是 [crates.io](https://crates.io)，是由 Rust 官方搭建的镜像下载和管理服务。
 
